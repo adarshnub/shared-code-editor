@@ -22,7 +22,7 @@ const Landingpage = () => {
         }
     }
 
-    function onSelectChange (sl:string) {
+    function onSelectChange (sl:any) {
         console.log("selected option :",sl)
         setLanguage(sl);
     }
@@ -33,7 +33,7 @@ const Landingpage = () => {
 
         <div>
             <LanguagesDropdown 
-              onSelectChange={onSelectChange} />
+              onSelectedChange={onSelectChange} />
         </div>
 
         <div>
