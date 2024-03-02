@@ -27,7 +27,7 @@ const CodeEditor = ({onChange, language, code, theme}:CodeEditorProps) => {
   return (
     <div className='w-full h-full'>
         <Editor 
-          height="85vh"
+          height="50vh"
           width="80vw"
           language={language || "javascript"}
           value={value}
