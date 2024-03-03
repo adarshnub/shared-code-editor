@@ -1,9 +1,9 @@
 "use client"
 
 // import { languageOptions } from '@/constants/languageOptions'
-import React, { useEffect, useState } from 'react'
+import React from 'react'
 import Select from 'react-select'
-import fetchLanguages from './fetchLanguages'
+
 import { Language } from '@/app/page'
 import { languageOptions } from '@/constants/languageOptions'
 

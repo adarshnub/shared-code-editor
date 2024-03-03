@@ -134,7 +134,7 @@ const Landingpage = () => {
             setCustomInputs={setCustomInputs}
           />
           <Button onClick={handleCompile} disabled={!code}>
-            {processing ? "Processing..." : "Compile and Execute"}
+            {processing ? "Compiling..." : "Run"}
           </Button>
         </div>
       </div>
